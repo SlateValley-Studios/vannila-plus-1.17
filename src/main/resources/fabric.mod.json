@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "vanilla-plus",
+  "version": "${version}",
+
+  "name": "Vanilla Plus",
+  "description": "A mod that adds and expands on vanilla based features!",
+  "authors": [
+    "TomSipsOnCurry",
+    "Shamwarizim_"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/vanilla-plus/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tomsipsoncurry.vanillaplus.Vanillaplus"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
