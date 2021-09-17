@@ -12,8 +12,9 @@ public class ModItems {
     public static final Item WITHER_BONE = new Item(new FabricItemSettings().group(ItemGroup.MISC));
 
     public static void registerItems() {
-    Registry.register(Registry.ITEM, new Identifier(Vanillaplus.MOD_ID, "wither_bone"), WITHER_BONE);
-    Registry.register(Registry.ITEM, new Identifier(Vanillaplus.MOD_ID, "eucalyptus_log"), new BlockItem(ModBlocks.EUCALYPTUS_LOG, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
-Registry.register(Registry.ITEM, new Identifier(Vanillaplus.MOD_ID, "purpur_wall"), new BlockItem(ModBlocks.PURPUR_WALL, new FabricItemSettings().group((ItemGroup.BUILDING_BLOCKS))));
+        Registry.register(Registry.ITEM, new Identifier(Vanillaplus.MOD_ID, "wither_bone"), WITHER_BONE);
+        Registry.register(Registry.ITEM, new Identifier(Vanillaplus.MOD_ID, "eucalyptus_log"), new BlockItem(ModBlocks.EUCALYPTUS_LOG, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.ITEM, new Identifier(Vanillaplus.MOD_ID, "eucalyptus_plank"), new BlockItem(ModBlocks.EUCALYPTUS_PLANK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.ITEM, new Identifier(Vanillaplus.MOD_ID, "purpur_wall"), new BlockItem(ModBlocks.PURPUR_WALL, new FabricItemSettings().group((ItemGroup.BUILDING_BLOCKS))));
     }
 }
